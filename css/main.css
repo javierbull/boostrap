@@ -1,6 +1,7 @@
 :root {
-  --blanco: #fff;
+  --white: #fff;
   --blue: blue;
+  --lightblue: lightblue;
 }
 
 *{
@@ -13,23 +14,27 @@ html {
 
 /* BG COLORS */
 .bg-white {
-  background-color: var(--white) !important;
+  background-color: var(--white);
 }
+
 /* FIN BG COLORS */
 
 /* NAVBAR */
 
 .navbar-bee-market {
-  background-color: blue;
+  background-color: var(--white);
   padding: 0;
   height: 4rem;
+  padding-right: 3rem;
 }
 
-.navbar-brand {
-  background-color: salmon;
+.content-navbar {
+  background-color: var(--lightblue);
   height: 100%;
   display: flex;
   align-items: center;
+  padding-left: 3rem;
+  padding-right: 0;
 }
 
 .navbar-brand img {
@@ -43,11 +48,13 @@ html {
 .input-search {
   background-color: pink;
   width: 20rem;
-  margin-left: auto
+  margin-left: auto;
 }
 
 .input-search .form-control {
   background-color: yellow;
 }
+
+
 
 /* FIN NAVBAR */

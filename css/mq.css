@@ -1,0 +1,98 @@
+
+
+/* LAPTOP HD */
+@media (max-width: 1366px) {
+
+}
+/* END LAPTOP HD */
+
+/* TABLET LANDSCAPE */
+@media (max-width: 1024px) {
+
+
+}
+/* END TABLET LANDSCAPE */
+
+/* BIG CELL LANDSCAPE */
+@media (max-width: 823px) and (min-width: 770px) {
+
+}
+/* END BIG CELL LANDSCAPE */
+
+/* TABLET PORTRAIT */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar-bee-market {
+    background-color: var(--lightblue);
+    padding: 0;
+    height: 4rem;
+    padding-right: 2rem;
+  }
+
+  .content-navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+
+  .input-search {
+    background-color: pink;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  /* END NAVBAR */
+}
+/* END TABLET PORTRAIT */
+
+/* CELL LANDSCAPE */
+@media (max-width: 736px) {
+
+}
+/* END CELL LANDSCAPE */
+
+
+/* SM CELL LANDSCAPE */
+@media (max-width: 568px) {
+
+
+}
+/* END SM CELL LANDSCAPE */
+
+/* CELL PORTRAIT */
+@media (max-width: 480px) {
+
+  /* NAVBAR */
+
+  .navbar-bee-market {
+    background-color: var(--lightblue);
+    padding: 0;
+    height: 4rem;
+    padding-right: 1rem;
+  }
+
+  .content-navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+  /* END NAVBAR */
+
+}
+/* END CELL PORTRAIT */
+
+
+/* SM CELL PORTRAIT */
+  @media (max-width: 360px) {
+
+  }
