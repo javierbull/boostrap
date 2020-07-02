@@ -1,7 +1,53 @@
-* {
+:root {
+  --blanco: #fff;
+  --blue: blue;
+}
+
+*{
   box-sizing: border-box;
 }
 
-body {
-  color: #373A36;
+html {
+  font-size: 15px;
 }
+
+/* BG COLORS */
+.bg-white {
+  background-color: var(--white) !important;
+}
+/* FIN BG COLORS */
+
+/* NAVBAR */
+
+.navbar-bee-market {
+  background-color: blue;
+  padding: 0;
+  height: 4rem;
+}
+
+.navbar-brand {
+  background-color: salmon;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  background-color: teal;
+}
+
+.navbar-bee-market .navbar-collapse {
+  background-color: orange;
+}
+
+.input-search {
+  background-color: pink;
+  width: 20rem;
+  margin-left: auto
+}
+
+.input-search .form-control {
+  background-color: yellow;
+}
+
+/* FIN NAVBAR */
